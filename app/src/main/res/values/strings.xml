@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Moodie</string>
+    <string name="greetings_how_are_you_today">Greetings! How are you today ?</string>
+    <string name="textview">TextView</string>
+    <string name="sad">Button</string>
+    <string name="meh">Button</string>
+    <string name="okay">Button</string>
+    <string name="happy">Button</string>
+    <string name="excited">Button</string>
+    <string name="entries">Entries</string>
+    <string-array name="arrayFactors">
+        <item>
+            Sleeping
+        </item>
+        <item>
+            Working
+        </item>
+        <item>
+            Studying
+        </item>
+        <item>
+            Weather
+        </item>
+        <item>
+            Loneliness
+        </item>
+        <item>
+            Relationship
+        </item>
+    </string-array>
+</resources>

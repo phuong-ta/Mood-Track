@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient3"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/emoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/excited" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:text="Why are you feeling this way?"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/factorListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:choiceMode="multipleChoice"></ListView>
+
+    <EditText
+        android:id="@+id/editTextComment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="top|left"
+        android:hint="Please add comment...  (Max 150)"
+        android:inputType="textPersonName"
+        android:lines="10"
+        android:maxLength="150"
+        android:maxLines="15"
+        android:minLines="5"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/next" />
+
+</LinearLayout>

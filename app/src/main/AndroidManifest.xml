@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fi.juliusphung.moodtrack">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/moodie"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/moodie_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MoodTrack">
+
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true"
+            android:parentActivityName=".MainActivity3">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity3" />
+        </activity>
+
+        <activity
+            android:name=".MainActivity6"
+            android:exported="true"
+            android:parentActivityName=".MainActivity4">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity4" />
+        </activity>
+
+        <activity
+            android:name=".MainActivity5"
+            android:exported="true"
+            android:parentActivityName=".MainActivity4">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity4" />
+        </activity>
+
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true"
+            android:parentActivityName=".MainActivity2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity2" />
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity4">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity4" />
+        </activity>
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
